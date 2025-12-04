@@ -1,4 +1,44 @@
 {
-hola:holaa,
+  "clientes": [
+    {
+      "id": 1,
+      "empresa": "Inmobivalor S.A.C.",
+      "contacto": "Juan Pérez",
+      "email": "juan.perez@inmobivalor.com",
+      "telefono": "987654321",
+      "tipo": "Inmobiliaria",
+      "estado": "Activo",
+      "totalCompras": 5
+    },
+    {
+      "id": 2,
+      "empresa": "Construcciones Lima",
+      "contacto": "Ana Gómez",
+      "email": "ana.gomez@conslima.com",
+      "telefono": "912345678",
+      "tipo": "Constructora",
+      "estado": "Activo",
+      "totalCompras": 2
+    }
+  ],
+  "ordenes_compra": [
+    {
+      "id": 1,
+      "clienteId": 1,
+      "codigo": "OC-2025-001",
+      "fecha": "2025-12-01",
+      "moneda": "PEN",
+      "montoTotal": 150000,
+      "estado": "Pendiente"
+    },
+    {
+      "id": 2,
+      "clienteId": 2,
+      "codigo": "OC-2025-002",
+      "fecha": "2025-12-02",
+      "moneda": "USD",
+      "montoTotal": 80000,
+      "estado": "Aprobado"
+    }
+  ]
 }
-
