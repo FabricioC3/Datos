@@ -1,44 +1,102 @@
-{
-  "clientes": [
-    {
-      "id": 1,
-      "empresa": "Inmobivalor S.A.C.",
-      "contacto": "Juan Pérez",
-      "email": "juan.perez@inmobivalor.com",
-      "telefono": "987654321",
-      "tipo": "Inmobiliaria",
-      "estado": "Activo",
-      "totalCompras": 5
-    },
-    {
-      "id": 2,
-      "empresa": "Construcciones Lima",
-      "contacto": "Ana Gómez",
-      "email": "ana.gomez@conslima.com",
-      "telefono": "912345678",
-      "tipo": "Constructora",
-      "estado": "Activo",
-      "totalCompras": 2
-    }
-  ],
-  "ordenes_compra": [
-    {
-      "id": 1,
-      "clienteId": 1,
-      "codigo": "OC-2025-001",
-      "fecha": "2025-12-01",
-      "moneda": "PEN",
-      "montoTotal": 150000,
-      "estado": "Pendiente"
-    },
-    {
-      "id": 2,
-      "clienteId": 2,
-      "codigo": "OC-2025-002",
-      "fecha": "2025-12-02",
-      "moneda": "USD",
-      "montoTotal": 80000,
-      "estado": "Aprobado"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "company": "Tech Solutions",
+    "contact": "Carlos Perez",
+    "email": "c.perez@techsolutions.com",
+    "phoneNumbers": "987654321",
+    "type": "Business",
+    "status": "Active",
+    "totalPurchase": 1500
+  },
+  {
+    "id": 2,
+    "company": "DesignWorks",
+    "contact": "Ana Gómez",
+    "email": "ana@designworks.com",
+    "phoneNumbers": "993456789",
+    "type": "Business",
+    "status": "Inactive",
+    "totalPurchase": 800
+  },
+  {
+    "id": 3,
+    "company": "GreenTech",
+    "contact": "Luis Martínez",
+    "email": "luis@greentech.com",
+    "phoneNumbers": "912345678",
+    "type": "Business",
+    "status": "Active",
+    "totalPurchase": 2200
+  },
+  {
+    "id": 4,
+    "company": "Sunshine Bakery",
+    "contact": "María Rodríguez",
+    "email": "maria@sunshinebakery.com",
+    "phoneNumbers": "945678912",
+    "type": "Business",
+    "status": "Active",
+    "totalPurchase": 500
+  },
+  {
+    "id": 5,
+    "company": "BookStore Inc.",
+    "contact": "Juan Pérez",
+    "email": "juan@bookstore.com",
+    "phoneNumbers": "987123456",
+    "type": "Retail",
+    "status": "Inactive",
+    "totalPurchase": 1200
+  },
+  {
+    "id": 6,
+    "company": "MegaCorp",
+    "contact": "Sofía Ruiz",
+    "email": "sofia@megacorp.com",
+    "phoneNumbers": "963852741",
+    "type": "Business",
+    "status": "Active",
+    "totalPurchase": 3000
+  },
+  {
+    "id": 7,
+    "company": "BlueWave Industries",
+    "contact": "Carlos Torres",
+    "email": "carlos@bluewave.com",
+    "phoneNumbers": "954621478",
+    "type": "Industrial",
+    "status": "Inactive",
+    "totalPurchase": 950
+  },
+  {
+    "id": 8,
+    "company": "Creative Minds",
+    "contact": "Lucía Mendoza",
+    "email": "lucia@creativeminds.com",
+    "phoneNumbers": "977123456",
+    "type": "Business",
+    "status": "Active",
+    "totalPurchase": 2100
+  },
+  {
+    "id": 9,
+    "company": "FashionWear",
+    "contact": "Paola García",
+    "email": "paola@fashionwear.com",
+    "phoneNumbers": "914789123",
+    "type": "Retail",
+    "status": "Active",
+    "totalPurchase": 1800
+  },
+  {
+    "id": 10,
+    "company": "Tech Innovators",
+    "contact": "Gerardo Sánchez",
+    "email": "gerardo@techinnovators.com",
+    "phoneNumbers": "998877665",
+    "type": "Business",
+    "status": "Active",
+    "totalPurchase": 1300
+  }
+]
